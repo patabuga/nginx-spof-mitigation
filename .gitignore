@@ -1,0 +1,32 @@
+# Evidence data
+evidence/**/*.csv
+evidence/**/*.json
+evidence/**/*.log
+!evidence/**/.gitkeep
+
+## Config snapshots
+configs/*.backup
+
+# Analysis outputs
+charts/*.png
+charts/*.pdf
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
